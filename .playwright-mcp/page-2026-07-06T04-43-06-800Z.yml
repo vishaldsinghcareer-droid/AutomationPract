@@ -1,0 +1,295 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner "Site" [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e6]:
+          - link "SQA Tools" [ref=e7] [cursor=pointer]:
+            - /url: https://sqatools.in/
+        - paragraph [ref=e8]: Online Learning Platform
+      - navigation "Primary" [ref=e9]:
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "Home" [ref=e14] [cursor=pointer]:
+              - /url: https://sqatools.in/
+          - listitem [ref=e15]:
+            - link "Courses" [ref=e16] [cursor=pointer]:
+              - /url: https://sqatools.in/course/
+              - text: Courses
+              - img [ref=e18]
+            - list:
+              - listitem:
+                - link "Robot Framework Automation":
+                  - /url: https://sqatools.in/robotframework-course/
+          - listitem [ref=e20]:
+            - link "Tutorials" [ref=e21] [cursor=pointer]:
+              - /url: https://sqatools.in/python-tutorials/
+              - text: Tutorials
+              - img [ref=e23]
+            - list:
+              - listitem:
+                - link "Python Tutorials":
+                  - /url: https://sqatools.in/python-tutorials/
+              - listitem:
+                - link "Python Selenium Tutorials":
+                  - /url: https://sqatools.in/python-selenium-tutorials/
+              - listitem:
+                - link "SQL Tutorial":
+                  - /url: https://sqatools.in/sql-tutorial/
+              - listitem:
+                - link "Python MCQ":
+                  - /url: https://sqatools.in/python-mcq-questions/
+          - listitem [ref=e25]:
+            - link "Python Practice Exercises" [ref=e26] [cursor=pointer]:
+              - /url: https://sqatools.in/python-practice-exercises/
+              - text: Python Practice Exercises
+              - img [ref=e28]
+            - list:
+              - listitem:
+                - link "Python Basic Programs":
+                  - /url: https://sqatools.in/python-basic-programs/
+              - listitem:
+                - link "Python If Else Programs":
+                  - /url: https://sqatools.in/python-if-else-practice-programs/
+              - listitem:
+                - link "Python Loops Programs":
+                  - /url: https://sqatools.in/python-loops-programs/
+              - listitem:
+                - link "Python String Programs":
+                  - /url: https://sqatools.in/python-string-programs-exercises-examples/
+              - listitem:
+                - link "Python List Programs":
+                  - /url: https://sqatools.in/python-list-programs/
+              - listitem:
+                - link "Python Tuple Programs":
+                  - /url: https://sqatools.in/python-tuple-programs/
+              - listitem:
+                - link "Python Dictionary Programs":
+                  - /url: https://sqatools.in/python-dictionary-programs/
+              - listitem:
+                - link "Python Set Programs":
+                  - /url: https://sqatools.in/python-set-programs-exercises/
+              - listitem:
+                - link "Python Functional Programs":
+                  - /url: https://sqatools.in/python-function-programs/
+              - listitem:
+                - link "Python File Handling Programs":
+                  - /url: https://sqatools.in/python-file-handling-programs/
+              - listitem:
+                - link "Python OS Module Programs":
+                  - /url: https://sqatools.in/python-os-module-programs-exercises/
+              - listitem:
+                - link "Python OOPS Programs":
+                  - /url: https://sqatools.in/python-oops-programs-for-practice/
+              - listitem:
+                - link "Python Numpy Programs":
+                  - /url: https://sqatools.in/python-numpy-programs-exercises/
+              - listitem:
+                - link "Python Pandas Programs":
+                  - /url: https://sqatools.in/python-pandas-programs-exercises/
+          - listitem [ref=e30]:
+            - link "Blogs" [ref=e31] [cursor=pointer]:
+              - /url: https://sqatools.in/blogs/
+      - generic:
+        - complementary:
+          - insertion
+  - generic [ref=e32]:
+    - main [ref=e35]:
+      - article [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Dummy Booking Website" [level=1] [ref=e39]
+          - generic [ref=e40]:
+            - paragraph [ref=e41]: Dummy ticket websites provide different web elements to do the automation
+            - list [ref=e42]:
+              - listitem [ref=e43]:
+                - link "Login Page" [ref=e44] [cursor=pointer]:
+                  - /url: https://sqatools.in/login-page/
+            - heading "Dummy Ticket Booking Website" [level=1] [ref=e45]
+            - heading "Choose the correct option:" [level=3] [ref=e46]
+            - list [ref=e48]:
+              - listitem [ref=e49]:
+                - radio [ref=e50]
+                - text: Dummy ticket for visa application – $200
+              - listitem [ref=e51]:
+                - radio [ref=e52]
+                - text: Dummy return ticket – $300
+              - listitem [ref=e53]:
+                - radio [ref=e54]
+                - text: Dummy hotel booking ticket – $400
+              - listitem [ref=e55]:
+                - radio [ref=e56]
+                - text: Dummy hotel and flight booking – $500
+              - listitem [ref=e57]:
+                - radio [ref=e58]
+                - text: Cab booking and return date – $600
+            - generic [ref=e59]:
+              - heading "Passenger Details" [level=2] [ref=e60]
+              - generic [ref=e61]:
+                - text: First Name
+                - textbox [ref=e62]
+              - text: Last Name
+              - textbox [ref=e63]
+            - text: Date of birth*
+            - textbox [ref=e65]
+            - text: Sex*
+            - radio [ref=e66]
+            - text: Male
+            - radio [ref=e67]
+            - text: Female
+          - heading "Number of Additional Passangers" [level=3] [ref=e68]
+          - combobox [ref=e69]:
+            - option "I’m the only one traveler" [selected]
+            - option "Add 1 more passenger (100%)"
+            - option "Add 2 more passenger (200%)"
+            - option "Add 3 more passenger (200%)"
+          - heading "Travel Details" [level=2] [ref=e70]
+          - generic [ref=e71]:
+            - radio [ref=e72]
+            - text: One Way
+            - radio [ref=e73]
+            - text: Round Trip
+          - generic [ref=e74]: From City Destination City
+          - generic [ref=e75]:
+            - textbox [ref=e76]
+            - textbox [ref=e77]
+          - generic [ref=e78]: Departure Date Return Date
+          - generic [ref=e79]:
+            - textbox [ref=e80]
+            - textbox [ref=e81]
+          - heading "Delivery Option" [level=2] [ref=e82]
+          - text: Visa interview/ appointment date(optional)
+          - textbox [ref=e83]
+          - generic [ref=e84]: How will you like to receive the dummy ticket(optional)
+          - generic [ref=e85]:
+            - radio [ref=e86]
+            - text: Email
+            - radio [ref=e87]
+            - text: WhatsApp
+            - radio [ref=e88]
+            - text: Both
+          - heading "Billing Details" [level=2] [ref=e89]
+          - generic [ref=e90]:
+            - generic [ref=e91]: Biling Name*
+            - textbox [ref=e92]
+            - generic [ref=e93]: Phone*
+            - textbox [ref=e94]
+            - generic [ref=e95]: Email address*
+            - textbox [ref=e96]
+            - generic [ref=e97]: Street address*
+            - textbox [ref=e98]
+            - generic [ref=e99]: Country*
+            - combobox [ref=e100]:
+              - option "Afghanistan" [selected]
+              - option "Åland Islands"
+              - option "Algeria"
+              - option "American Samoa"
+              - option "Andorra"
+              - option "Angola"
+              - option "Anguilla"
+              - option "Antarctica"
+              - option "Antigua and Barbuda"
+              - option "Bangladesh"
+              - option "Barbados"
+              - option "Belarus"
+              - option "India"
+              - option "United Kingdom"
+            - generic [ref=e101]:
+              - generic [ref=e102]: Postcode / ZIP*
+              - generic [ref=e103]: Prefecture
+            - generic [ref=e104]:
+              - textbox [ref=e105]
+              - textbox [ref=e106]
+            - generic [ref=e107]: Street address*
+            - textbox [ref=e108]
+            - textbox [ref=e109]
+          - heading "Most Visited Cities" [level=2] [ref=e110]
+          - table [ref=e111]:
+            - rowgroup [ref=e112]:
+              - row "Select Option City ID City Name Passengers" [ref=e113]:
+                - columnheader "Select Option" [ref=e114]
+                - columnheader "City ID" [ref=e115]
+                - columnheader "City Name" [ref=e116]
+                - columnheader "Passengers" [ref=e117]
+              - row "6001 Mumbai 1033" [ref=e118]:
+                - cell [ref=e119]:
+                  - checkbox [ref=e120]
+                - cell "6001" [ref=e121]
+                - cell "Mumbai" [ref=e122]
+                - cell "1033" [ref=e123]
+              - row "6002 Pune 2002" [ref=e124]:
+                - cell [ref=e125]:
+                  - checkbox [ref=e126]
+                - cell "6002" [ref=e127]
+                - cell "Pune" [ref=e128]
+                - cell "2002" [ref=e129]
+              - row "6003 Indore 3000" [ref=e130]:
+                - cell [ref=e131]:
+                  - checkbox [ref=e132]
+                - cell "6003" [ref=e133]
+                - cell "Indore" [ref=e134]
+                - cell "3000" [ref=e135]
+              - row "6004 Kolkata 5000" [ref=e136]:
+                - cell [ref=e137]:
+                  - checkbox [ref=e138]
+                - cell "6004" [ref=e139]
+                - cell "Kolkata" [ref=e140]
+                - cell "5000" [ref=e141]
+              - row "6005 Hyderabad 6000" [ref=e142]:
+                - cell [ref=e143]:
+                  - checkbox [ref=e144]
+                - cell "6005" [ref=e145]
+                - cell "Hyderabad" [ref=e146]
+                - cell "6000" [ref=e147]
+              - row "6006 Orangabad 3456" [ref=e148]:
+                - cell [ref=e149]:
+                  - checkbox [ref=e150]
+                - cell "6006" [ref=e151]
+                - cell "Orangabad" [ref=e152]
+                - cell "3456" [ref=e153]
+              - row "6007 Delhi 5666" [ref=e154]:
+                - cell [ref=e155]:
+                  - checkbox [ref=e156]
+                - cell "6007" [ref=e157]
+                - cell "Delhi" [ref=e158]
+                - cell "5666" [ref=e159]
+    - complementary [ref=e162]:
+      - list [ref=e163]:
+        - listitem [ref=e164]:
+          - link "Playwright Read .env File and Use Environment Variables" [ref=e165] [cursor=pointer]:
+            - /url: https://sqatools.in/playwright-read-env-file-and-use-environment-variables/
+        - listitem [ref=e166]:
+          - link "TypeScript OOPs Practice Questions with Explanations" [ref=e167] [cursor=pointer]:
+            - /url: https://sqatools.in/typescript-oops-practice/
+        - listitem [ref=e168]:
+          - link "Step-by-Step Guide to Use Playwright Annotations" [ref=e169] [cursor=pointer]:
+            - /url: https://sqatools.in/step-by-step-guide-to-use-playwright-annotations/
+        - listitem [ref=e170]:
+          - link "AI-Specific Interview Questions and Answers for Software QA Professionals" [ref=e171] [cursor=pointer]:
+            - /url: https://sqatools.in/ai-specific-interview-questions-and-answers/
+        - listitem [ref=e172]:
+          - link "AI Tools for QA Engineers" [ref=e173] [cursor=pointer]:
+            - /url: https://sqatools.in/ai-tools-for-qa-engineers/
+  - contentinfo "Site" [ref=e175]:
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - complementary
+        - complementary [ref=e178]:
+          - separator [ref=e179]
+        - complementary [ref=e180]:
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Automation Practice Page" [ref=e183] [cursor=pointer]:
+                - /url: https://sqatools.in/automation-practice-page/
+            - listitem [ref=e184]:
+              - link "Dummy Booking Website" [ref=e185] [cursor=pointer]:
+                - /url: https://sqatools.in/dummy-booking-website/
+            - listitem [ref=e186]:
+              - link "Login Page" [ref=e187] [cursor=pointer]:
+                - /url: https://sqatools.in/login-page/
+      - generic [ref=e188]:
+        - text: © 2026 SQA Tools • Built with
+        - link "GeneratePress" [ref=e189] [cursor=pointer]:
+          - /url: https://generatepress.com
+  - button "Scroll back to top" [ref=e190] [cursor=pointer]:
+    - img [ref=e192]
